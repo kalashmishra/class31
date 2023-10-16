@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+display: flex;
+}
+#left{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: darkcyan;
+}
+#left #text1{
+    width: 100%;
+    padding: 40px;
+    color: #fff;
+}
+#text1 h1{
+    font-weight: 300;
+    font-size: 50px;
+}
+#text1 p{
+    opacity: .9;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#text1 h1 span{
+    font-weight: 700;
+}
+#text1 h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#text1 button{
+    padding:12px 22px;
+    font-weight: 600;
+    color: darkcyan;
+    border: 3px solid rgb(16, 180, 182);
+    border-radius: 5px;
+}
+#text2{
+    width: 90%;
+    position: absolute;
+    bottom: 4%;
+    background-color:rgb(221, 250, 251);
+    padding: 10px;
+}
+#text2 h2{
+    color: rgb(11, 175, 175);
+}
+#text2 p{
+   margin-top: 10px;
+    font-weight: 400;
+    opacity: .9;
+  
+    line-height: 1.6;
+    font-size: 14px;
+}
+#right{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    background-color:rgb(216, 246, 246);
+}
+#right>img{
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left:-20%;
+    transform:translate(-20%,-10%) rotate(-30deg);
+}
+#right #center{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-65%,-50%);
+    
+}
+#center h1{
+    font-weight: 300;
+    font-size: 50px;
+
+
+}
+#center h1 span{
+    font-weight: 600;
+    color: darkcyan;
+}
+#center h2{
+    font-weight: 500;
+}
+#center h2 span{
+    color: darkcyan;
+}
+#center p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    opacity: .9;
+  
+    line-height: 1.6;
+    font-size: 15px;
+
+}
+#center button{
+    padding: 12px 22px;
+
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+#center #one{
+    font-weight: 600;
+    color: darkcyan;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+}
+#center #two{
+    font-weight: 600;
+    color: #fff;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 50px;
+
+
+}
+#sample h3{
+font-weight: 500;
+color: darkcyan;
+margin-bottom: 30px;
+
+}
+#sampleimg{
+    
+    display: flex;
+    gap: 20px;
+}
+.image{
+    width: 100px;
+    rotate: -20deg;
+}
+.image img{
+    width: 100%;
+}
